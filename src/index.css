@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Rubik:ital,wght@0,400;0,500;0,600;0,700;1,300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+html{
+  /* Overwrite the default fontsize*/
+  /* font-size: 10px;*/
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user browser of font-size setting*/
+  font-size: 62.5%;
+
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Rubik", sans-serif;
+  background-color: #092635;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+
+.heading{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50rem;
+}
+
+
+.heading h1{
+  font-size: 2.8rem;
+  color: #9EC8B9;
+  letter-spacing: 2.1rem;
+  text-align: center;
+}
+
+.icon{
+  width: 7rem;
+  height: 3rem;
+  color: #9EC8B9;
+}
+
+
+.todo-form input{
+  padding: 1.4rem 24.5rem;
+  background-color: #1B4242;
+  border: none;
+  border-radius: 3px;
+  font-size: 1.8rem;
+  font-family: inherit;
+  font-weight: 600;
+  color: #9EC8B9;
+  text-align: center;
+  outline: none;
+}
+
+
+.card-section{
+  margin-top: 3rem;
+  padding: 1.4rem 40.5rem;
+}
+
+
+.card-list{
+  padding: 1.4rem 1rem 1.2rem 1rem;
+  background-color: #1B4242;
+  border-radius: 3px;
+}
+
+
+.item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  font-weight: 600;
+  color: #9EC8B9;
+  margin-bottom: 1.4rem;
+  text-align: start;
+}
+
+.item:last-child{
+  margin-bottom: 0;
+}
+
+
+input[type=radio]:checked{
+  border: 5px solid #0DFF92;
+}
+
+input[type=radio]:checked::before{
+  background: #0DFF92;
+}
+
+input[type=radio]:checked{
+  color: #0DFF92;
+}
+
+
+.item .btn{
+  display: inline-block;
+  float: right;
+}
+
+
+.checked{
+  text-decoration: line-through;
+}
+
+
+.filter-item{
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  color: #9EC8B9;
+}
+
+.filter-active{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.filter-active a:link, a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
+.filter-active a:hover, a:active{
+  text-decoration: none;
+  color: #0DFF92;
+}
+
+
+.clear-complete a:link, a:visited{
+  text-decoration: none;
+  color: inherit;
+}
+
+.clear-complete a:hover, a:active{
+  text-decoration: none;
+  color: #0DFF92;
+}
+
+
+.filter-button{
+  background-color: #092635;
+  border: none;
+  padding: 0.5rem 1.6rem;
+  border-radius: 7px;
+  font-weight: 600;
+  color: #0DFF92;
+}
+
+
+.button-active{
+  background-color: #092635;
+  border: none;
+  padding: 0.5rem 1.6rem;
+  border-radius: 7px;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
