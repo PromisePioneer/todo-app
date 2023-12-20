@@ -45,9 +45,6 @@ export default function App(){
                        onSort={setSortBy}
             />
         </>
-
-
-        console.log('TEST')
     )
 
 }
